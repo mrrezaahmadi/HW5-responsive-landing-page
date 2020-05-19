@@ -1,0 +1,35 @@
+$pixelToPercentRatio: 0.052083;
+$containerMaxWidth: 1176px;
+
+
+.header-wave {
+	width: 383px;
+	height: 374px;
+	opacity: 0.5;
+    position: absolute;
+    z-index: -5;
+    top: 0;
+	left: 0;
+}
+
+@keyframes wave-a {
+	50% {
+		transform: translateY(10px);
+	}
+}
+@keyframes wave-b {
+	50% {
+		transform: translateY(-10px);
+	}
+}
+.wave-1 {
+	top: 1000px;
+	animation: wave-a 5s ease-in-out infinite;
+}
+
+.wave-2 {
+	top: 1000px;
+	animation: wave-b 5s ease-in-out infinite;
+}
+
+

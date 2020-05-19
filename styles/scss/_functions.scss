@@ -1,0 +1,10 @@
+@use './setting';
+
+// the argument should be in pixel but unitless
+@function convert2percent($pixels...) {
+	$sum: 0;
+	@each $pixel in $pixels {
+		$sum: $sum + $pixel;
+	}
+	@return ($sum * setting.$pixelToPercentRatio) + 0%;
+}

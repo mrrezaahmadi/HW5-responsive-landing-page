@@ -1,0 +1,12 @@
+@use './navbar-lg';
+@use './section-1-lg';
+@use './section-2-lg';
+@use './section-3-lg';
+@use './section-4-lg';
+@use './section-5-lg';
+@use './footer-lg';
+
+.container-large {
+	max-width: 1176px;
+}
+

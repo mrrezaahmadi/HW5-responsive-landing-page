@@ -1,0 +1,95 @@
+.section-3-sm {
+	margin: 45px 0;
+	position: relative;
+	height: fit-content;
+	.card {
+		border: transparent;
+		padding: 30px 0;
+		// width: 1170px;
+		// min-height: 300px;
+		border-radius: 30px;
+		box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+		background-color: #ffffff;
+		.buttons {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: relative;
+			button {
+				margin: 15px 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+				border: transparent;
+				width: 160px;
+				height: 50px;
+				border-radius: 25px;
+				box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+				background-image: linear-gradient(to top, #00a680, #00f4bd);
+			}
+		}
+		.image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		form {
+			margin-top: 33px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			direction: rtl;
+			input {
+				width: 290px;
+				height: 50px;
+				border-radius: 25px;
+				border: solid 1px #eeeeee;
+				background-color: #fafafa;
+			}
+			button {
+				margin-top: 21px;
+				width: 140px;
+				color: white;
+				height: 50px;
+				border: transparent;
+				border-radius: 25px;
+				box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+				background-image: linear-gradient(to top, #e35325, #ff8a65);
+			}
+		}
+		.text {
+			h3 {
+				margin-top: 29px;
+				height: 26px;
+				font-family: Shabnam-FD;
+				font-size: 24px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: normal;
+				letter-spacing: normal;
+				color: #007f62;
+			}
+			p {
+				margin-top: 19px;
+				height: 18px;
+				font-family: Shabnam-FD;
+				font-size: 16px;
+				font-weight: 300;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				text-align: center;
+				color: #000000;
+			}
+			.p1 {
+				// margin-bottom: 24px;
+			}
+			.p2 {
+				margin-top: 48px;
+			}
+		}
+	}
+}

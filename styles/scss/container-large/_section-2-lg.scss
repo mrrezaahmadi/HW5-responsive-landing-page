@@ -1,0 +1,58 @@
+.section-2-lg {
+	max-width: 1176px;
+	position: relative;
+	height: 816px;
+	margin-top: calc(903px - 783px);
+	direction: rtl;
+	height: fit-content;
+	h2 {
+		/* width: 389px; */
+		height: 31px;
+		font-family: Shabnam-FD;
+		font-size: 30px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #007f62;
+		margin-bottom: 41px;
+	}
+	p {
+		text-align: justify;
+		max-width: 431px;
+		height: 182px;
+		font-family: Shabnam-FD;
+		font-size: 13px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.85;
+		letter-spacing: normal;
+		color: #000000;
+	}
+}
+
+.circle-border {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 72px;
+	min-height: 72px;
+	border: 1px black solid;
+	border-radius: 36px;
+	background: white;
+	margin: calc(54px / 2) 5px;
+}
+
+.icon {
+	height: 34px;
+	width: 40px;
+}
+
+.v-line {
+	height: 750px;
+	position: absolute;
+	z-index: -1;
+	border: 1px black solid;
+}

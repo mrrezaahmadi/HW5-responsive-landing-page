@@ -1,0 +1,71 @@
+/* Section 1 large */
+
+.section-1-lg {
+	height: 783px;
+	position: relative;
+	direction: rtl;
+	h1 {
+		height: 39px;
+		font-family: Shabnam-FD;
+		font-size: 40px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #007f62;
+	}
+	p {
+		width: 436px;
+		height: 89px;
+		font-family: Shabnam-FD;
+		font-size: 14px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.71;
+		letter-spacing: normal;
+		color: #000000;
+	}
+	.text {
+		margin-right: 1.82%;
+		margin-top: 126px;
+	}
+	.photo {
+		position: absolute;
+		left: 0;
+	}
+}
+
+.slide3-bg {
+	position: absolute;
+	height: 505px;
+	width: 854px;
+	z-index: -3;
+	left: 0;
+	top: 149px;
+}
+
+.slide3-traveling {
+	height: 655px;
+	width: 503px;
+	left: 0;
+	top: 28px;
+	position: absolute;
+	z-index: -2;
+}
+
+.green-underline {
+	margin-top: calc(10px + 15px);
+	margin-bottom: 44px;
+	width: 70px;
+	height: 3px;
+	border-radius: 1.5px;
+	background-color: #00a680;
+}
+
+/* Section 1 large */
+
+
+
+/*# sourceMappingURL=style.css.map */

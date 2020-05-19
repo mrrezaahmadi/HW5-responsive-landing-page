@@ -1,0 +1,52 @@
+.section-2-sm {
+	position: relative;
+	height: fit-content;
+}
+
+.section-2-sm {
+	position: relative;
+	height: fit-content;
+	// margin-top: calc(903px - 783px);
+	direction: rtl;
+	height: fit-content;
+	h2 {
+		font-family: Shabnam-FD;
+		font-size: 30px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: -0.75px;
+		text-align: right;
+		color: #007f62;
+	}
+	p {
+        text-align: right;
+		font-family: Shabnam-FD;
+		font-size: 16px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		text-align: justify;
+		color: #000000;
+	}
+}
+
+.circle-border {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 72px;
+	min-height: 72px;
+	border: 1px black solid;
+	border-radius: 36px;
+	background: white;
+	margin: calc(54px / 2) 5px;
+}
+
+.icon {
+	height: 34px;
+	width: 40px;
+}

@@ -1,0 +1,10 @@
+@use './navbar-small';
+@use './section-1-small';
+@use './section-2-small';
+@use './section-3-small';
+@use './section-4-small';
+@use './section-5-small';
+
+.container-small {
+    min-width: 360px;
+}

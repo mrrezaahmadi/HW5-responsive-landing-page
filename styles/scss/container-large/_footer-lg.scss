@@ -1,0 +1,36 @@
+.footer-lg {
+    position: absolute;
+    width: 100%;
+    border: 1px red solid;
+	// margin-top: 100px;
+	height: 278px;
+	.logo {
+        display: flex;
+        flex-direction: column;
+        
+		.circle {
+            background-color: rgb(131, 187, 131);
+			width: 72px;
+			height: 72px;
+		}
+		p {
+			width: 247px;
+			height: 36px;
+			font-family: Shabnam-FD;
+			font-size: 13px;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.85;
+			letter-spacing: normal;
+			text-align: right;
+			color: #ffffff;
+		}
+	}
+}
+
+.footer-list {
+    li {
+        color: white;
+    }
+}
