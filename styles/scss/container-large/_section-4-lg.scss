@@ -4,10 +4,19 @@
 	flex-direction: column;
 	align-items: center;
 	// border: 1px red solid;
-	background-image: linear-gradient(to top, #00a680, #00f4bd);
+	// background-image: linear-gradient(to top, #00a680, #00f4bd);
 	position: relative;
 	margin-top: 104px;
 	height: 350px;
+	img {
+		-webkit-mask-image: url(../../../assests/022_bg_amadegisafar.svg);
+		// margin: 20px auto;
+		display: block;
+		// -webkit-mask-position: center center;
+		// mask-position: center center;
+		// -webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
 	button {
 		span {
 			width: 87px;
@@ -21,10 +30,10 @@
 			letter-spacing: normal;
 			text-align: center;
 			color: #ffffff;
-        }
-        position: relative;
-        top: 92px;
-        border: transparent;
+		}
+		position: relative;
+		top: 92px;
+		border: transparent;
 		width: 160px;
 		height: 50px;
 		border-radius: 25px;
@@ -59,4 +68,13 @@
 		text-align: center;
 		color: #ffffff;
 	}
+}
+
+.a {
+	z-index: -2;
+}
+
+.b {
+	z-index: -1;
+	opacity: .6;
 }

@@ -1,5 +1,6 @@
 .section-0-lg {
-  height: 219px;
+  position: relative;
+  min-height: 219px;
 }
 
 .rectangle {
@@ -79,13 +80,13 @@ nav ul li a {
 }
 
 .logo-bg {
-  top: -37px;
+  top: 0;
   right: -178px;
-  max-width: 406px;
+  width: 406px;
   height: 219px;
   position: absolute;
-  overflow: hidden;
   z-index: -1;
+  border: 1px red solid;
 }
 
 /* Section 1 large */
@@ -126,6 +127,12 @@ nav ul li a {
   left: 0;
 }
 
+.slide3-birds {
+  position: absolute;
+  left: 450px;
+  top: 50px;
+}
+
 .slide3-bg {
   position: absolute;
   height: 505px;
@@ -139,7 +146,7 @@ nav ul li a {
   height: 655px;
   width: 503px;
   left: 0;
-  top: 28px;
+  top: 46px;
   position: absolute;
   z-index: -2;
 }
@@ -307,10 +314,14 @@ nav ul li a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(to top, #00a680, #00f4bd);
   position: relative;
   margin-top: 104px;
   height: 350px;
+}
+.section-4-lg img {
+  -webkit-mask-image: url(../../../assests/022_bg_amadegisafar.svg);
+  display: block;
+  mask-repeat: no-repeat;
 }
 .section-4-lg button {
   position: relative;
@@ -361,6 +372,15 @@ nav ul li a {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+.a {
+  z-index: -2;
+}
+
+.b {
+  z-index: -1;
+  opacity: 0.6;
 }
 
 .slider-show {
@@ -451,10 +471,9 @@ nav ul li a {
 }
 
 .footer-lg {
-  position: absolute;
+  position: relative;
   width: 100%;
   border: 1px red solid;
-  height: 278px;
 }
 .footer-lg .logo {
   display: flex;
@@ -501,9 +520,10 @@ nav ul li a {
 }
 .section-1-sm .photo {
   position: relative;
+  overflow-x: hidden;
   left: 0;
-  border: 1px solid red;
-  width: fit-content;
+  height: 360px;
+  min-width: 480px;
 }
 .section-1-sm .text h1 {
   font-family: Shabnam-FD;
@@ -539,14 +559,42 @@ nav ul li a {
   position: absolute;
   z-index: -3;
   width: 239px;
-  left: 100px;
   height: 350px;
+  left: 80px;
 }
 
 .slide1-bg {
   position: relative;
+  left: 0;
+  top: 50px;
   z-index: -4;
   height: 274px;
+}
+
+.slide1-baloon {
+  position: absolute;
+  left: 0;
+}
+
+.baloon1 {
+  top: 40px;
+  right: 150px;
+  width: 42px;
+  height: 57px;
+}
+
+.baloon2 {
+  right: 100px;
+  top: 100px;
+  width: 24px;
+  height: 33px;
+}
+
+.baloon3 {
+  top: 10px;
+  left: 85px;
+  width: 29px;
+  height: 39px;
 }
 
 .section-2-sm {
@@ -868,13 +916,27 @@ nav ul li a {
   }
 }
 .wave-1 {
-  top: 1000px;
   animation: wave-a 5s ease-in-out infinite;
 }
 
 .wave-2 {
-  top: 1000px;
   animation: wave-b 5s ease-in-out infinite;
+}
+
+.full-width {
+  height: inherit;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=newStyle.css.map */

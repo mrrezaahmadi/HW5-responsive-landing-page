@@ -11,24 +11,12 @@
 		<link rel="stylesheet" href="./styles/css/newStyle.css" />
 		<title>JustGo</title>
 	</head>
-	<body style="min-height: 100%; padding: 0; margin: 0;">
+	<body>
 		<!-- background images -->
 		<img
 			class="header-wave d-none d-md-block"
 			src="./assests/010_header_wave.png"
 			alt=""
-		/>
-		<img
-			src="./assests/020_dlbox_bg2.svg"
-			alt=""
-			style="position: absolute; left: 0;"
-			class="wave-1"
-		/>
-		<img
-			src="./assests/020_dlbox_bg2-2.svg"
-			alt=""
-			style="position: absolute; left: 0; width: 100%;"
-			class="wave-2"
 		/>
 
 		<!-- container small -->
@@ -37,7 +25,7 @@
 			<nav class="navbar-small"></nav>
 
 			<!-- section 1 small -->
-			<section class="section-1-sm">
+			<section class="section-1-sm" style="overflow-x: hidden;">
 				<div class="text">
 					<h1>
 						بهتر سفر کنید
@@ -51,11 +39,24 @@
 					</p>
 				</div>
 				<div class="photo">
-					<img src="./assests/002_slide1_bg.png" alt="" class="slide1-bg" />
+					<img src="./assests/002_slide1_bg.png" alt="" class="slide1-bg"/>
 					<img src="./assests/001_slide1_woman_view.svg" class="slide1-woman" />
+					<img src="./assests/slide1_balloon1.png" class="slide1-baloon baloon1" alt="">
+					<img src="./assests/slide1_balloon2.png" class="slide1-baloon baloon2" alt="">
+					<img src="./assests/slide1_balloon3.png" class="slide1-baloon baloon3" alt="">
 				</div>
 			</section>
-
+			<!-- waves -->
+			<div class="waves">
+				<img
+					src="./assests/020_dlbox_bg2.svg"
+					class="wave-1 full-width"
+				/>
+				<img
+					src="./assests/020_dlbox_bg2-2.svg"
+					class="wave-2 full-width"
+				/>
+			</div>
 			<!-- section 2 small -->
 			<section class="section-2-sm">
 				<div class="row">
@@ -229,6 +230,7 @@
 					</p>
 				</div>
 				<div class="photo">
+					<img src="./assests/008_slide3_birds.png" class="slide3-birds" alt="">
 					<img src="./assests/007_slide3_bg.png" alt="" class="slide3-bg" />
 					<img
 						src="./assests/006_slide3_traveling.svg"
@@ -236,7 +238,17 @@
 					/>
 				</div>
 			</section>
-
+			<!-- waves -->
+			<div class="waves">
+				<img
+					src="./assests/020_dlbox_bg2.svg"
+					class="wave-1 full-width"
+				/>
+				<img
+					src="./assests/020_dlbox_bg2-2.svg"
+					class="wave-2 full-width"
+				/>
+			</div>
 			<!-- section 2 large -->
 			<section class="section-2-lg">
 				<div class="row">
@@ -327,7 +339,9 @@
 			</section>
 
 			<!-- section 4 large -->
-			<section class="section-4-lg">
+			<section class="section-4-lg img-fluid w-100">
+				<img src="./assests/023_amadegisafar.jpg" class="a full-width" alt="" />
+				<img src="./assests/022_bg_amadegisafar.svg" class="b full-width" />
 				<h4>آمادگی سفر</h4>
 				<p>
 					لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
@@ -377,12 +391,14 @@
 
 			<!-- footer large -->
 			<footer class="footer-lg">
+				
+				<img src="./assests/025_footer_Bg.svg" class="full-width" alt="">
 				<div
-					class="row"
-					style="direction: rtl; display: flex; align-items: flex-end;"
+				class="row"
+				style="direction: rtl; display: flex; align-items: flex-end;"
 				>
-					<div class="col-lg-4">
-						<div class="logo">
+				<div class="col-lg-4">
+					<div class="logo">
 							<div class="circle"></div>
 							<p>
 								کلیه حقوق این وبسایت متعلق به جاسترو بوده و هرگونه استفاده از

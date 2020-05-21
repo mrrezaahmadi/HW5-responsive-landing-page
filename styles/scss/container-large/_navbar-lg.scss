@@ -1,5 +1,7 @@
 .section-0-lg {
-    height: 219px;
+	position: relative;
+	min-height: 219px;
+	// overflow: hidden;
 }
 
 .rectangle {
@@ -81,11 +83,11 @@ nav {
 }
 
 .logo-bg {
-    top: -37px;
-    right: -178px;
-	max-width: 406px;
+	top: 0;
+	right: -178px;
+	width: 406px;
     height: 219px;
     position: absolute;
-    overflow: hidden;
 	z-index: -1;
+	border: 1px red solid;
 }

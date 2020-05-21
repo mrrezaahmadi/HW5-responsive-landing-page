@@ -1,14 +1,16 @@
 .section-1-sm {
 	height: 700px;
 	direction: rtl;
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	.photo {
 		position: relative;
+		overflow-x: hidden;
 		left: 0;
-		border: 1px solid red;
-		width: fit-content;
+		height: 360px;
+		// border: 1px red solid;
+		min-width: 480px;
 	}
 	.text {
 		h1 {
@@ -46,13 +48,40 @@
 .slide1-woman {
 	position: absolute;
 	z-index: -3;
-    width: 239px;
-    left: 100px;
+	width: 239px;
 	height: 350px;
+	left: 80px;
 }
 
 .slide1-bg {
 	position: relative;
+	left: 0;
+	top: 50px;
 	z-index: -4;
 	height: 274px;
+}
+
+.slide1-baloon {
+	position: absolute;
+	left: 0;
+}
+.baloon1 {
+	top: 40px;
+	right: 150px;
+	width: 42px;
+	height: 57px;
+}
+
+.baloon2 {
+	right: 100px;
+	top: 100px;
+	width: 24px;
+	height: 33px;
+}
+
+.baloon3 {
+	top: 10px;
+	left: 85px;
+	width: 29px;
+	height: 39px;
 }
