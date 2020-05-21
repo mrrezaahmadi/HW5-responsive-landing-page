@@ -320,7 +320,10 @@ nav ul li a {
 }
 .section-4-lg img {
   -webkit-mask-image: url(../../../assests/022_bg_amadegisafar.svg);
-  display: block;
+  mask-image: url(../../../assests/022_bg_amadegisafar.svg);
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
 }
 .section-4-lg button {
@@ -471,21 +474,27 @@ nav ul li a {
 }
 
 .footer-lg {
+  display: flex;
+  align-items: flex-end;
   position: relative;
+}
+.footer-lg .menu {
   width: 100%;
-  border: 1px red solid;
+  height: 150px;
 }
 .footer-lg .logo {
   display: flex;
   flex-direction: column;
+  margin-right: 80px;
 }
 .footer-lg .logo .circle {
+  margin-bottom: 10px;
   background-color: #83bb83;
   width: 72px;
   height: 72px;
 }
 .footer-lg .logo p {
-  width: 247px;
+  width: 260px;
   height: 36px;
   font-family: Shabnam-FD;
   font-size: 13px;
@@ -889,6 +898,19 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   background-color: #e1fff8;
+}
+
+.footer-sm {
+  height: 378px;
+}
+.footer-sm .circle {
+  margin-bottom: 10px;
+  background-color: #83bb83;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  border-bottom-left-radius: 144px;
+  border-bottom-right-radius: 144px;
 }
 
 .container-small {

@@ -10,11 +10,11 @@
 	height: 350px;
 	img {
 		-webkit-mask-image: url(../../../assests/022_bg_amadegisafar.svg);
-		// margin: 20px auto;
-		display: block;
-		// -webkit-mask-position: center center;
-		// mask-position: center center;
-		// -webkit-mask-repeat: no-repeat;
+		mask-image: url(../../../assests/022_bg_amadegisafar.svg);
+		// display: block;
+		-webkit-mask-position: center center;
+		mask-position: center center;
+		-webkit-mask-repeat: no-repeat;
 		mask-repeat: no-repeat;
 	}
 	button {
